@@ -31,7 +31,8 @@
 		<script type="text/javascript">
 		// 웹영역
 		alert("환영합니다.! <%=mem.getId()%> 님");
-		// location.href = "";
+		
+		location.href = "./bbslist.jsp";	// bbslist.jsp로 이동
 		</script>
 		<%
 	}else{
